@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore India - Discover the Incredible India</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="home2.css">
+    <!-- <link rel="stylesheet" href="rotation.css"> -->
+</head>
+
+<body>
+    <!-- Header with Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Explore <span>India</span></a>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link">Destination</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Interest <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Wildlife</a>
+                        <a href="#">Heritage</a>
+                        <a href="#">Spiritual</a>
+                        <a href="#">Adventure</a>
+                        <a href="#">Trekking</a>
+                        <a href="#">Rural Life</a>
+                        <a href="#">City Life</a>
+                        <a href="#">Nature</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Festivals <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#">Filter by Interest</a>
+                        <a href="#">Filter by Region</a>
+                        <a href="#">Filter by Month</a>
+                    </div>
+                </li>
+                <li><a href="#" class="nav-link">Blog</a></li>
+                <li><button class="login-btn">Log In</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Taj Mahal Image -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover the Incredible India</h1>
+            <p>Experience the rich culture, breathtaking landscapes, and vibrant traditions of our beautiful country</p>
+            <button class="hero-btn">Start Your Journey</button>
+        </div>
+    </section>
+
+    <!-- Most Popular Tours Section -->
+    <section class="popular-tours">
+        <h2 class="section-title">Most Popular Tours of India</h2>
+        <div class="tours-grid">
+            <!-- Tour cards with hover effect -->
+            <div class="tour-card" data-place="Taj Mahal">
+                <img src="tajmahal.jpg" alt="Taj Mahal">
+                <div class="overlay">
+                    <h3>Taj Mahal, Agra</h3>
+                    <p>A symbol of love and one of the Seven Wonders of the World. Experience the grandeur of Mughal
+                        architecture.</p>
+                </div>
+            </div>
+            <div class="tour-card" data-place="Jaipur">
+                <img src="pink_city.jpeg" alt="Jaipur">
+                <div class="overlay">
+                    <h3>Jaipur, Rajasthan</h3>
+                    <p>The Pink City offers magnificent palaces, forts, and vibrant culture. Don't miss the Amber Fort
+                        and Hawa Mahal.</p>
+                </div>
+            </div>
+            <div class="tour-card" data-place="Kerala Backwaters">
+                <img src="kerela_back.jpeg" alt="Kerala Backwaters">
+                <div class="overlay">
+                    <h3>Kerala Backwaters</h3>
+                    <p>Experience the serene beauty of Kerala's backwaters on a traditional houseboat. Perfect for
+                        relaxation.</p>
+                </div>
+            </div>
+            <div class="tour-card" data-place="Goa Beaches">
+                <img src="goa_beach.jpeg" alt="Goa Beaches">
+                <div class="overlay">
+                    <h3>Goa Beaches</h3>
+                    <p>Golden sands, azure waters, and vibrant nightlife. Goa offers the perfect beach vacation
+                        experience.</p>
+                </div>
+            </div>
+            <div class="tour-card" data-place="Varanasi">
+                <img src="baranasi.jpeg" alt="Varanasi">
+                <div class="overlay">
+                    <h3>Varanasi, Uttar Pradesh</h3>
+                    <p>The spiritual capital of India. Experience the ancient rituals along the Ganges River.</p>
+                </div>
+            </div>
+            <div class="tour-card" data-place="Himalayas">
+                <img src="himalayan_track.jpeg" alt="Himalayas">
+                <div class="overlay">
+                    <h3>Himalayan Trekking</h3>
+                    <p>Explore the majestic mountains of the Himalayas. Perfect for adventure seekers and nature lovers.
+                    </p>
+                </div>
+            </div>
+            <div class="tour-card" data-place="Ranthambore">
+                <img src="rantham_nati_park.jpeg" alt="Tiger Reserve">
+                <div class="overlay">
+                    <h3>Ranthambore National Park</h3>
+                    <p>Spot the majestic Bengal tiger in its natural habitat. A paradise for wildlife enthusiasts.</p>
+                </div>
+            </div>
+            <div class="tour-card" data-place="Khajuraho">
+                <img src="khajuraho.jpeg" alt="Temple">
+                <div class="overlay">
+                    <h3>Khajuraho Temples</h3>
+                    <p>Marvel at the intricate architecture and sculptures of these UNESCO World Heritage temples.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weekend Plans Section -->
+    <section class="weekend-plans">
+        <h2 class="section-title">Weekend Plans</h2>
+        <div class="weekend-grid">
+            <div class="weekend-card" data-plan="Himalayan Adventure">
+                <div class="card-image" style="background-image: url(himalayan_track.jpeg);"></div>
+                <div class="card-content">
+                    <h3>Himalayan Adventure</h3>
+                    <div class="days">
+                        <div class="day">
+                            <h4>Day 1</h4>
+                            <p>Arrive in Manali, check into hotel, explore local markets and enjoy scenic views of the
+                                mountains.</p>
+                        </div>
+                        <div class="day">
+                            <h4>Day 2</h4>
+                            <p>Visit Solang Valley for adventure activities like paragliding and zorbing, then return to
+                                Delhi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="weekend-card" data-plan="Goa Beach Getaway">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1590523278191-995cbcda646b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');">
+                </div>
+                <div class="card-content">
+                    <h3>Goa Beach Getaway</h3>
+                    <div class="days">
+                        <div class="day">
+                            <h4>Day 1</h4>
+                            <p>Arrive in Goa, relax at Baga Beach, enjoy water sports and visit local flea market.</p>
+                        </div>
+                        <div class="day">
+                            <h4>Day 2</h4>
+                            <p>Explore Old Goa churches, visit Dudhsagar Falls, and enjoy the nightlife at Tito's Lane.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="weekend-card" data-plan="Mughal Heritage Tour">
+                <div class="card-image" style="background-image: url(MUGHAL.jpeg);"></div>
+                <div class="card-content">
+                    <h3>Mughal Heritage Tour</h3>
+                    <div class="days">
+                        <div class="day">
+                            <h4>Day 1</h4>
+                            <p>Visit Agra Fort and Itimad-ud-Daulah (Baby Taj) with local guide for historical insights.
+                            </p>
+                        </div>
+                        <div class="day">
+                            <h4>Day 2</h4>
+                            <p>Explore Taj Mahal at sunrise, enjoy a boat ride on Yamuna River, then return to Delhi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="expand-btn" id="weekendExpand">EXPAND</button>
+    </section>
+
+    <!-- Culture & Heritage Section -->
+    <section class="culture-heritage">
+        <h2 class="section-title">Culture & Heritage</h2>
+        <div class="gallery-container">
+
+        </div>
+        <div class="gallery-controls">
+            <button class="gallery-btn" id="prevBtn"><i class="fas fa-arrow-left"></i> Prev</button>
+            <button class="gallery-btn" id="nextBtn">Next <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <button class="expand-btn" id="heritageExpand">EXPAND</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Explore India</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>About us</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Portfolio</li>
+                    <li>Location</li>
+                </ul>
+            </div>
+            <div class="footer-forth">
+                <ul>
+                    <li>Policy</li>
+                    <li>copyright</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-content">
+            <p>&copy; 2025 Explore India. All rights reserved.</p>
+            <p>Discover the beauty and diversity of India with our travel guides and experiences</p>
+        </div>
+    </footer>
+
+    <script>
+        // 3D Gallery Rotation
+        const gallery = document.getElementById('heritageGallery');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        let rotation = 0;
+        let cardCount = 8;
+        let angle = 360 / cardCount;
+
+        // Initialize gallery positions
+        function initGallery() {
+            for (let i = 0; i < cardCount; i++) {
+                const card = gallery.children[i];
+                card.style.transform = `rotateY(${i * angle}deg) translateZ(350px)`;
+            }
+        }
+
+        // Rotate gallery to the right
+        nextBtn.addEventListener('click', () => {
+            rotation -= angle;
+            gallery.style.transform = `rotateY(${rotation}deg)`;
+        });
+
+        // Rotate gallery to the left
+        prevBtn.addEventListener('click', () => {
+            rotation += angle;
+            gallery.style.transform = `rotateY(${rotation}deg)`;
+        });
+
+        // Initialize the gallery on page load
+        window.addEventListener('load', initGallery);
+
+        // Expand buttons functionality
+        document.getElementById('weekendExpand').addEventListener('click', () => {
+            alert('Opening Weekend Plans page...');
+            // In a real implementation, this would navigate to a new page
+            // window.location.href = 'weekend-plans.html';
+        });
+
+        document.getElementById('heritageExpand').addEventListener('click', () => {
+            alert('Opening Culture & Heritage page...');
+            // In a real implementation, this would navigate to a new page
+            // window.location.href = 'culture-heritage.html';
+        });
+
+        // Navbar link functionality
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const section = e.target.textContent;
+                alert(`Navigating to ${section} page...`);
+                // In a real implementation, this would navigate to the appropriate page
+                // window.location.href = `${section.toLowerCase().replace(' ', '-')}.html`;
+            });
+        });
+
+        // Tour card click functionality
+        document.querySelectorAll('.tour-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const place = card.getAttribute('data-place');
+                alert(`Opening detailed page for ${place}...`);
+                // In a real implementation, this would navigate to the destination page
+                // window.location.href = `destination/${place.toLowerCase().replace(' ', '-')}.html`;
+            });
+        });
+
+        // Weekend card click functionality
+        document.querySelectorAll('.weekend-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const plan = card.getAttribute('data-plan');
+                alert(`Opening detailed page for ${plan}...`);
+                // In a real implementation, this would navigate to the weekend plan page
+                // window.location.href = `weekend/${plan.toLowerCase().replace(' ', '-')}.html`;
+            });
+        });
+
+        // Heritage card click functionality
+        document.querySelectorAll('.gallery-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const heritage = card.getAttribute('data-heritage');
+                alert(`Opening detailed page for ${heritage}...`);
+                // In a real implementation, this would navigate to the heritage page
+                // window.location.href = `heritage/${heritage.toLowerCase().replace(' ', '-')}.html`;
+            });
+        });
+
+        // Login button functionality
+        document.querySelector('.login-btn').addEventListener('click', () => {
+            alert('Opening login page...');
+            // In a real implementation, this would navigate to the login page
+            // window.location.href = 'login.html';
+        });
+
+        // Hero button functionality
+        document.querySelector('.hero-btn').addEventListener('click', () => {
+            alert('Starting your journey...');
+            // In a real implementation, this would navigate to the tour selection page
+            // window.location.href = 'tours.html';
+        });
+    </script>
+</body>
+
+</html>
